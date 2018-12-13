@@ -19,3 +19,12 @@ class Student < ActiveRecord::Base
   end
 
 end
+
+
+  # def self.search(name)
+  #   if name
+  #     Student.all.select {|student| student if student.name.downcase.include?(name.downcase)}
+  #   else
+  #     Student.all
+  #   end
+  # end
